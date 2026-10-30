@@ -1,0 +1,33 @@
+# Citation metadata of ZNN-Bench 1.0.0 (Citation File Format 1.2.0).
+# Add `doi:` and `repository-code:` once the archive and the repository are published.
+# Author names are given exactly as supplied (entity form); split them into given-names and
+# family-names if preferred.
+cff-version: 1.2.0
+message: "If you use ZNN-Bench, please cite it using these metadata."
+type: software
+title: "ZNN-Bench: an open, step-size-resolved benchmark of zeroing and gradient neural dynamics"
+version: 1.0.0
+license: MIT
+authors:
+  - name: "Phat T. Tran-Truong"
+  - name: "Phien Nguyen-Ngoc"
+  - name: "Ha X. Son"
+  - name: "Tran Gia Huy"
+  - name: "Khanh H. Vo"
+  - name: "Triet M. Nguyen"
+  - name: "Nhan T. K. Nguyen"
+  - name: "Thuc M. Nguyen"
+abstract: >-
+  ZNN-Bench is an open Python benchmark of zeroing neural networks (ZNN) and gradient neural
+  networks for time-varying problems. It implements problems, models, activations, gain schedules,
+  difference formulas, noise models and information regimes from the literature, runs sweeps over the
+  sampling period and the step size, and contains the configurations, logged results and analysis
+  scripts of its full-scale experiments, together with the material of a reporting-practice
+  meta-analysis of open-access ZNN publications.
+keywords:
+  - zeroing neural network
+  - gradient neural network
+  - time-varying problem
+  - discretization
+  - step size
+  - benchmark

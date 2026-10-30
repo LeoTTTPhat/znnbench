@@ -1,0 +1,19 @@
+# Conda environment for ZNN-Bench 1.0.0 (same pins as requirements.txt).
+#   conda env create -f environment.yml
+#   conda activate znn-bench
+#   python -m pip install -e .
+name: znn-bench
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - pandas==3.0.6
+      - matplotlib==3.11.2
+      - pyarrow==26.0.0
+      - PyYAML==6.0.3
+      - psutil==7.2.2
+      - pytest==9.1.1

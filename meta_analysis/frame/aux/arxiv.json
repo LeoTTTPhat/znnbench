@@ -1,0 +1,107 @@
+[
+{
+"arxiv": "2512.06516v2",
+"pub": "2025-12-06",
+"title": "Interplay of Ferromagnetic and Antiferromagnetic Interactions in Epitaxial Co$_3$ZnN",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2507.00387v1",
+"pub": "2025-07-01",
+"title": "A Review on Zeroing Neural Networks",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2505.04735v1",
+"pub": "2025-05-07",
+"title": "Computing leaky waves in semi-analytical waveguide models by exponential residual relaxation",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2503.01857v1",
+"pub": "2025-02-22",
+"title": "A strictly predefined-time convergent and anti-noise fractional-order zeroing neural network for solving time-variant quadratic programming in kinematic robot control",
+"doi": "10.1016/j.neunet.2025.107279",
+"jr": "Neural Networks (2025) 107279"
+},
+{
+"arxiv": "2412.20477v1",
+"pub": "2024-12-29",
+"title": "A Predefined-Time Convergent and Noise-Tolerant Zeroing Neural Network Model for Time Variant Quadratic Programming With Application to Robot Motion Planning",
+"doi": "10.26599/tst.2024.9010202",
+"jr": ""
+},
+{
+"arxiv": "2411.07570v2",
+"pub": "2024-11-12",
+"title": "Constructive RNNs: An Error-Recurrence Perspective on Time-Variant Zero Finding Problem Solving Under Uncertainty",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2408.14057v1",
+"pub": "2024-08-26",
+"title": "Revisiting time-variant complex conjugate matrix equations with their corresponding real field time-variant large-scale linear equations, neural hypercomplex numbers space compressive approximation approach",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2406.12783v2",
+"pub": "2024-06-18",
+"title": "Zeroing neural dynamics solving time-variant complex conjugate matrix equation $X(\u03c4)F(\u03c4)-A(\u03c4)\\overline{X}(\u03c4)=C(\u03c4)$",
+"doi": "10.1016/j.cam.2026.117347",
+"jr": "Journal of Computational and Applied Mathematics. Volume 482, 15 August 2026, 117347"
+},
+{
+"arxiv": "2312.03028v1",
+"pub": "2023-12-05",
+"title": "Double Integral Enhanced Zeroing Neural Network Optimized with ALSOA fostered Lung Cancer Classification using CT Images",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2308.04975v2",
+"pub": "2023-08-09",
+"title": "High Accuracy Determination of Rheological Properties of Drilling Fluids Using the Marsh Funnel",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2209.10002v2",
+"pub": "2022-09-20",
+"title": "Adapted AZNN Methods for Time-Varying and Static Matrix Problems",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2102.12726v1",
+"pub": "2021-02-25",
+"title": "Design and Control of a Highly Redundant Rigid-Flexible Coupling Robot to Assist the COVID-19 Oropharyngeal-Swab Sampling",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2008.02724v6",
+"pub": "2020-08-06",
+"title": "Zeroing Neural Networks : an Introduction to Predictive Computations for Time-varying Matrix Problems via ZNN",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2006.01241v5",
+"pub": "2020-06-01",
+"title": "Constructing the Field of Values of Decomposable and General Matrices Using the ZNN Based Path Following Method",
+"doi": "",
+"jr": ""
+},
+{
+"arxiv": "2002.01274v1",
+"pub": "2020-02-04",
+"title": "Coalescing Eigenvalues and Crossing Eigencurves of 1-Parameter Matrix Flows",
+"doi": "",
+"jr": ""
+}
+]

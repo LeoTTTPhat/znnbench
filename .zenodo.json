@@ -1,0 +1,52 @@
+{
+  "title": "ZNN-Bench 1.0.0: code and data of the open benchmark of zeroing neural networks under discretization",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Phat T. Tran-Truong",
+      "affiliation": "Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT); Vietnam National University Ho Chi Minh City, Vietnam"
+    },
+    {
+      "name": "Phien Nguyen-Ngoc",
+      "affiliation": "Center for Applied Information Technology and Faculty of Information Technology, Ton Duc Thang University, Ho Chi Minh City, Vietnam"
+    },
+    {
+      "name": "Ha X. Son",
+      "affiliation": "RMIT University Vietnam"
+    },
+    {
+      "name": "Tran Gia Huy",
+      "affiliation": "FPT University, Can Tho Campus, Vietnam"
+    },
+    {
+      "name": "Khanh H. Vo",
+      "affiliation": "FPT University, Can Tho Campus, Vietnam"
+    },
+    {
+      "name": "Triet M. Nguyen",
+      "affiliation": "FPT University, Can Tho Campus, Vietnam"
+    },
+    {
+      "name": "Nhan T. K. Nguyen",
+      "affiliation": "FPT University, Can Tho Campus, Vietnam"
+    },
+    {
+      "name": "Thuc M. Nguyen",
+      "affiliation": "FPT University, Can Tho Campus, Vietnam"
+    }
+  ],
+  "description": "<p>ZNN-Bench is an open Python benchmark of zeroing neural networks (ZNN) and gradient neural networks for time-varying problems, resolved by sampling period and step size. This record archives release 1.0.0: the source code with its unit tests, the experiment configurations and random seeds, the raw and processed full-scale results of experiments E1-E9 and of the robotics case study, the scripts that regenerate the figures and result tables, and the complete material of the reporting-practice meta-analysis (harvest, screening and access-check scripts with their raw outputs, sample, rubric, coding brief, per-publication codes with evidence quotes, adjudication and harmonization files, analysis script). Code: MIT License. Data: CC BY 4.0. The full texts of the publications read for the meta-analysis are not redistributed (copyright); abstracts were removed from the harvested metadata. See README.md for the layout and MANIFEST.sha256 for checksums.</p>",
+  "keywords": [
+    "zeroing neural network",
+    "gradient neural network",
+    "time-varying problem",
+    "discretization",
+    "step size",
+    "benchmark",
+    "reproducibility"
+  ],
+  "notes": "Code (the znnbench package, tests, experiment, analysis and meta-analysis scripts, tools/memguard.py) is licensed under the MIT License; results, figures and meta-analysis data files are licensed under CC BY 4.0."
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "znnbench"
+version = "1.0.0"
+description = "ZNN-Bench: step-size-resolved benchmark of zeroing and gradient neural dynamics"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "[AUTHORS]" }]
+keywords = ["zeroing neural network", "gradient neural network", "time-varying problem",
+            "discretization", "step size", "benchmark"]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "pyarrow"]
+
+[project.optional-dependencies]
+yaml = ["PyYAML"]
+sweeps = ["psutil"]
+test = ["pytest", "psutil"]
+
+[tool.setuptools.packages.find]
+include = ["znnbench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

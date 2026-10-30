@@ -1,0 +1,13 @@
+item,n,exact,within1,kappa
+R1_n_problems,16,1.0,1.0,
+R2_max_dim,15,0.8,0.8666666666666667,
+R3_sim_method,16,1.0,,1.0
+R4_step_reported,16,1.0,,1.0
+R5_discrete_analysis,16,1.0,,1.0
+R6_gain_matched,16,0.9375,,0.9036144578313253
+R7_n_baselines,16,0.9375,1.0,
+R8_baselines_rerun,16,1.0,,1.0
+R9_noise_types,16,1.0,,1.0
+R10_time_bound_checked,16,1.0,,1.0
+R11_code_available,16,1.0,,1.0
+R12_physical_experiment,16,1.0,,1.0

@@ -1,0 +1,104 @@
+id,R6_class,note
+M004,matched,same model; discretization formulas compared at the same h
+M009,matched,same model and the same tau and gamma for all discretizations
+M019,matched,same model; previous vs proposed DTZD algorithm at the same h and tau
+M020,matched,pole-matched noise-tolerant designs (alpha=2zeta, beta=zeta^2 vs 3zeta, 3zeta^2, zeta^3)
+M035,matched,same activation and equal gains (coder rule)
+M037,matched,same model; discretizations at the same tau and h
+M039,matched,same ZNN parameters for controllers with and without delay (same model)
+M055,matched,same model; formulas at the same h and tau
+M057,matched,parameters derived from one common xi (pole matching) with the same linear activation
+M061,matched,same activation and equal lambda (stated fair)
+M075,matched,same model; discretizations at the same h and sampling period
+M079,matched,same model; DTZNN variants at the same sampling time and initial state
+M081,matched,same step-limited gain tau*gamma for all discretizations
+M083,matched,six DTZNN models at the same sigma and h
+M102,matched,same model; only the step-size policy differs
+M109,matched,each baseline at its recommended/optimal settings (justified)
+M113,matched,same step-limited gain mu=lambda*g for all formulas
+M116,matched,PID baseline calibrated (Ziegler-Nichols + ITAE) - justified
+M002,nominal,equal nominal gains across structurally different models
+M005,nominal_claim,equal gamma asserted as fair comparison
+M008,nominal,equal nominal gains across different structures
+M010,nominal,equal lambda and xi for ZNN and GNN
+M015,nominal,equal gamma across different activations
+M016,nominal,same lambda for all activations
+M023,nominal,same gamma for ZNN and GNN
+M024,nominal,same scale parameters for all models
+M025,nominal,same lambda with different activations
+M027,nominal,global setting mu=nu=2 for different models
+M030,nominal,gamma=1 for RZNN and SBPAF-ZNN
+M034,nominal,equal gamma with different gain laws
+M038,nominal,gamma=100 for all controllers (NSZNN has extra lambda)
+M040,nominal,"identical parameters ""for consistency"""
+M042,nominal,xi and lambda equal for OZNN/IEZNN/ADIZNN
+M044,nominal,varying-gain proposed vs constant gamma=5 baselines
+M045,nominal,equal gamma with different activations
+M046,nominal,equal lambda sweeps across models
+M047,nominal,same observer gains across different observer structures
+M048,nominal,varying-gain proposed vs constant gamma=5 baselines
+M050,nominal_claim,same lambda declared the basis of comparison
+M052,nominal,gamma and kappa kept the same across activations
+M058,nominal,same design parameters across structurally different noise-tolerant models
+M060,nominal,same hyper-parameters for different optimisers
+M062,nominal_claim,alpha=beta=10 set to guarantee a fair comparison
+M064,nominal_claim,gamma and k kept the same for fair comparison
+M066,nominal,same parameters for GNN/ZNN/NSZNN controllers
+M080,nominal_claim,parameter of each model set to 5 to assess fairly
+M082,nominal,eta=gamma=10 for IZNN and FZNN
+M084,nominal,shared AF parameters across activation types
+M085,nominal,constant gamma for baselines vs variable gamma(t) for proposed
+M088,nominal,different gain structures without discussion
+M090,nominal_claim,gamma=gamma_G=3000 to ensure a fair comparison
+M093,nominal,eta=0.18 for all models (different AF / adaptive gain)
+M094,nominal,shared xi; AF parameters tuned for the proposed model
+M098,nominal,equal nominal beta with different gain structures
+M100,nominal,same parameters across models with different integral structures
+M103,nominal,identical parameters across DIEZNN/LIZNN/OZNN
+M104,nominal,baseline gains set equal to the proposed method's
+M105,nominal,same gamma for both formulations without argument
+M108,nominal,"identical parameters ""for consistency"" (gamma=2, tc=1)"
+M115,nominal,two parameter sets shared by all models; only initial conditions matched
+M118,nominal_claim,baseline gains selected to provide a fair benchmark (no matching)
+R029,nominal,same nominal phi across different activations/structures
+R031,nominal,equal parameters across different models
+M014,different,different gammas and eps for compared methods
+M095,different,OZNN kappa=100 vs ANR-ZNN kappa=rho=1000
+M107,different,varying gains differ across schemes (acknowledged)
+M119,different,different gains for ZN-PID and PID
+M001,not_reported,baseline gain not stated
+M003,not_reported,baseline gains not given
+M007,not_reported,no values for baseline gains
+M012,not_reported,ZNN/GNN gains not reported
+M022,not_reported,lambda and AF parameters not reported for any model
+M029,not_reported,baseline gamma never stated
+M031,not_reported,baseline gain not given
+M032,not_reported,baseline settings unclear
+M033,not_reported,no gain values reported
+M043,not_reported,neither controller's gains reported
+M049,not_reported,no gamma or AF parameters given
+M053,not_reported,no gains or step sizes reported
+M054,not_reported,baseline parameters not given
+M067,not_reported,baseline gains not separately reported
+M068,not_reported,baseline system settings not given
+M069,not_reported,gains of compared activation models not stated
+M072,not_reported,no parameters for the compared method
+M077,not_reported,baseline gains not separately stated
+M078,not_reported,baseline activation parameters not given
+M086,not_reported,no gain values reported
+M096,not_reported,baseline gains not reported
+M099,not_reported,controller gains of the four models not reported
+M101,not_reported,no ZNN or PID gains reported
+M110,not_reported,baseline parameters not reported
+M114,not_reported,no gamma or activation parameters reported
+M117,not_reported,baseline gains not reported (fairness argued for timing only)
+M120,not_reported,ZNN gamma not reported
+R001,not_reported,baseline gamma never stated
+M013,NA,baseline (open-loop LSTM) has no gain
+M041,NA,baseline QR/eig method has no gain
+M073,NA,baseline linprog has no gain
+M074,NA,baselines linsolve/pinv have no gain
+M092,NA,baseline FOBFDM has no gain
+M106,NA,baseline MultiParEig has no gain
+M112,NA,baselines are gain-free MOO methods
+R035,nominal,equal beta and gamma across activation variants; RAPD controller gains not compared

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# run-time output of sweeps and of tools/memguard.py
+logs/
+
+# Data are archived on Zenodo (see README.md, "Data"); extract the archives into the repository
+# root, but do not commit them.
+results/
+figures/
+meta_analysis/frame/cr/crossref_union.json
+meta_analysis/frame/cr/enrich.json
+meta_analysis/frame/s2/s2_union.json
+meta_analysis/frame/screen.json
+
+# Never commit third-party full texts (copyright) or downloaded pages
+meta_analysis/fulltext/
+meta_analysis/frame/dl/

@@ -1,0 +1,7 @@
+id,item,final,reason
+M015,R2_max_dim,7,double-coded disagreement (2 vs 7): rule = size of the ZNN state (variables plus multipliers) for QPs
+M029,R2_max_dim,4,double-coded disagreement (4 vs 3): TDOA model has 4 unknowns [x y z r1]
+M070,R2_max_dim,156,double-coded disagreement (156 vs 12): QP with 144 edge variables + 12 multipliers; rule = number of unknowns
+M102,R7_n_baselines,1,double-coded disagreement (2 vs 1): one fixed-step baseline run at two step sizes counts as one competing model
+M043,R6_gain_matched,no,double-coded disagreement (no vs unclear): gains of neither controller reported -> harmonized class not_reported
+M013,R12_physical_experiment,no,real measured data processed offline; no physical experiment of the network (rule R12)

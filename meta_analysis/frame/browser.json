@@ -1,0 +1,282 @@
+{
+"10.3390/math10010050": {
+"status": "ok",
+"url": "https://www.mdpi.com/2227-7390/10/1/50",
+"note": "MDPI full HTML, CC BY"
+},
+"10.1109/access.2021.3116152": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/9551969",
+"note": "IEEE Access full text HTML"
+},
+"10.1007/s40747-020-00178-9": {
+"status": "ok",
+"url": "https://link.springer.com/article/10.1007/s40747-020-00178-9",
+"note": "Springer full HTML, OA"
+},
+"10.1186/s13662-020-02571-7": {
+"status": "ok",
+"url": "https://link.springer.com/article/10.1186/s13662-020-02571-7",
+"note": "SpringerOpen full HTML"
+},
+"10.1109/access.2020.3035530": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/9247171",
+"note": "IEEE Access full text HTML"
+},
+"10.1155/2020/8520835": {
+"status": "ok",
+"url": "https://onlinelibrary.wiley.com/doi/10.1155/2020/8520835",
+"note": "Wiley/Hindawi OA full HTML"
+},
+"10.1016/j.jfranklin.2020.02.060": {
+"status": "fail",
+"url": "https://www.sciencedirect.com/science/article/pii/S0016003220301642",
+"note": "ScienceDirect blocks automated browser; not openable"
+},
+"10.1016/j.apm.2019.08.001": {
+"status": "fail",
+"url": "https://www.sciencedirect.com/science/article/pii/S0307904X19304895",
+"note": "ScienceDirect blocked; bronze open-archive unverifiable"
+},
+"10.1109/tnnls.2020.2966294": {
+"status": "fail",
+"url": "https://doi.org/10.25405/ncl.34453362",
+"note": "Newcastle figshare: File(s) not publicly available"
+},
+"10.2298/fil2015103x": {
+"status": "fail",
+"url": "https://doi.org/10.2298/fil2015103x",
+"note": "doiserbia.nb.rs host unreachable 2026-10-18"
+},
+"10.2298/fil2015009d": {
+"status": "fail",
+"url": "https://doi.org/10.2298/fil2015009d",
+"note": "doiserbia.nb.rs host unreachable 2026-10-18"
+},
+"10.2298/fil2015149g": {
+"status": "fail",
+"url": "https://doi.org/10.2298/fil2015149g",
+"note": "doiserbia.nb.rs host unreachable 2026-10-18"
+},
+"10.1016/j.neucom.2020.01.070": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1016/j.asoc.2020.106735": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1016/j.ins.2020.12.078": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1109/tnnls.2023.3315332": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1016/j.neucom.2020.08.037": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1109/tetc.2025.3629357": {
+"status": "fail",
+"url": "",
+"note": "Newcastle figshare record (10.25405/ncl.*): files not publicly available"
+},
+"10.1109/tii.2019.2936877": {
+"status": "fail",
+"url": "https://research.tees.ac.uk/en/publications/18bafe27-4e74-47fa-9be7-9b27edafca60",
+"note": "Teesside AAM behind Cloudflare challenge; not opened"
+},
+"10.1016/j.neucom.2019.12.053": {
+"status": "fail",
+"url": "https://cronfa.swan.ac.uk/Record/cronfa53117",
+"note": "Swansea repository 403 Forbidden"
+},
+"10.1016/j.measurement.2020.107964": {
+"status": "fail",
+"url": "https://cronfa.swan.ac.uk/Record/cronfa54389",
+"note": "Swansea repository 403 Forbidden"
+},
+"10.1016/j.neucom.2019.11.031": {
+"status": "fail",
+"url": "https://cronfa.swan.ac.uk/Record/cronfa52966",
+"note": "Swansea repository 403 Forbidden"
+},
+"10.1016/j.bspc.2021.102416": {
+"status": "ok",
+"url": "https://pearl.plymouth.ac.uk/context/secam-research/article/1348/viewcontent/LSTMZNN.pdf",
+"note": "Plymouth PEARL AAM PDF served publicly (file download)"
+},
+"10.1109/jas.2023.123057": {
+"status": "ok",
+"url": "https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2023.123057",
+"note": "free PDF on journal site ieee-jas.net"
+},
+"10.1109/tmech.2021.3056409": {
+"status": "fail",
+"url": "https://ieeexplore.ieee.org/document/9346034",
+"note": "IEEE bronze (no licence); free access cannot be distinguished from institutional access; excluded"
+},
+"10.1109/tfuzz.2020.2981001": {
+"status": "fail",
+"url": "https://ieeexplore.ieee.org/document/9036916",
+"note": "IEEE bronze (no licence); excluded"
+},
+"10.1109/tii.2021.3129526": {
+"status": "fail",
+"url": "https://ieeexplore.ieee.org/document/9623515",
+"note": "S2 status CLOSED; no OA copy"
+},
+"10.1007/s11571-026-10534-z": {
+"status": "fail",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42638685/",
+"note": "only PubMed abstract; no OA full text"
+},
+"10.1016/j.eswa.2022.118735": {
+"status": "fail",
+"url": "",
+"note": "only SSRN preprint as green copy; publisher paywalled"
+},
+"10.1016/j.neucom.2025.130734": {
+"status": "fail",
+"url": "",
+"note": "only SSRN preprint as green copy"
+},
+"10.1016/j.neucom.2026.133368": {
+"status": "fail",
+"url": "",
+"note": "only SSRN preprint as green copy"
+},
+"10.1155/2021/4227512": {
+"status": "ok",
+"url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/4227512",
+"note": "Wiley/Hindawi OA full HTML"
+},
+"10.1049/cit2.12019": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12019",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1155/2021/6627298": {
+"status": "ok",
+"url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/6627298",
+"note": "Wiley/Hindawi OA full HTML"
+},
+"10.1049/cit2.12183": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12183",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/cit2.12177": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12177",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/cth2.12680": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cth2.12680",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/cit2.12360": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.12360",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1155/2024/5870060": {
+"status": "ok",
+"url": "https://onlinelibrary.wiley.com/doi/10.1155/2024/5870060",
+"note": "Wiley/Hindawi OA full HTML"
+},
+"10.1049/ell2.13253": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ell2.13253",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/cit2.70087": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.70087",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/rpg2.70199": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/rpg2.70199",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1049/cit2.70126": {
+"status": "ok",
+"url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cit2.70126",
+"note": "Wiley/IET OA full HTML"
+},
+"10.1109/jsen.2022.3177409": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/9785415",
+"note": "IEEE hybrid OA (CC BY) full text HTML"
+},
+"10.1109/access.2021.3049244": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/9314002",
+"note": "IEEE Access full text HTML, CC BY"
+},
+"10.1109/access.2022.3222372": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/9950484",
+"note": "IEEE Access full text HTML, CC BY"
+},
+"10.1109/access.2024.3417445": {
+"status": "ok",
+"url": "https://ieeexplore.ieee.org/document/10568142",
+"note": "IEEE Access full text HTML, CC BY"
+},
+"10.1109/jas.2023.123384": {
+"status": "ok",
+"url": "https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2023.123384",
+"note": "free PDF on journal site ieee-jas.net"
+},
+"10.3390/math10152817": {
+"status": "ok",
+"url": "https://www.mdpi.com/2227-7390/10/15/2817",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/electronics11101636": {
+"status": "ok",
+"url": "https://www.mdpi.com/2079-9292/11/10/1636",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/math10111950": {
+"status": "ok",
+"url": "https://www.mdpi.com/2227-7390/10/11/1950",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/electronics11050824": {
+"status": "ok",
+"url": "https://www.mdpi.com/2079-9292/11/5/824",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/axioms12030287": {
+"status": "ok",
+"url": "https://www.mdpi.com/2075-1680/12/3/287",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/app14010303": {
+"status": "ok",
+"url": "https://www.mdpi.com/2076-3417/14/1/303",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/math11030600": {
+"status": "ok",
+"url": "https://www.mdpi.com/2227-7390/11/3/600",
+"note": "MDPI full HTML, CC BY"
+},
+"10.3390/s24030766": {
+"status": "ok",
+"url": "https://www.mdpi.com/1424-8220/24/3/766",
+"note": "MDPI full HTML, CC BY; also PMC10856917"
+}
+}
