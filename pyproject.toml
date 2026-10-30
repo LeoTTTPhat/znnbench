@@ -10,7 +10,9 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
 license-files = ["LICENSE"]
-authors = [{ name = "[AUTHORS]" }]
+authors = [{ name = "Phat T. Tran-Truong" }, { name = "Phien Nguyen-Ngoc" }, { name = "Ha X. Son" },
+           { name = "Tran Gia Huy" }, { name = "Khanh H. Vo" }, { name = "Triet M. Nguyen" },
+           { name = "Nhan T. K. Nguyen" }, { name = "Thuc M. Nguyen" }]
 keywords = ["zeroing neural network", "gradient neural network", "time-varying problem",
             "discretization", "step size", "benchmark"]
 dependencies = ["numpy", "scipy", "pandas", "matplotlib", "pyarrow"]

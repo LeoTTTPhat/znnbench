@@ -1,6 +1,6 @@
 # ZNN-Bench: reproduction artifact
 
-This folder contains everything needed to reproduce the ZNN-Bench results:
+This artifact contains everything needed to reproduce the ZNN-Bench results:
 
 * the `znnbench` Python package and its test suite,
 * the configurations, run scripts and analysis scripts of experiments E1–E9, of the robotics case
@@ -9,6 +9,14 @@ This folder contains everything needed to reproduce the ZNN-Bench results:
   regenerated without re-running the simulations,
 * every figure (PDF and PNG),
 * the scripts and data of the reporting-practice meta-analysis of open-access ZNN publications.
+
+**Data on Zenodo.** The Git repository holds the code, the tests, the configurations, the scripts,
+the documentation and the meta-analysis files. The logged results (`results/`, 1.2 GB), the figures
+(`figures/`) and four raw harvest and screening files of the meta-analysis (in `meta_analysis/frame/`)
+are not stored in Git: they are archived on Zenodo with the release (record and DOI to follow).
+Download the results, figures and meta-analysis archives and extract them into the repository root,
+so that `results/` and `figures/` sit next to `znnbench/`. Steps 1, 3 and 4 below work without them;
+Step 2 needs them.
 
 All paths stored in the result files are relative to this folder, so every command below is run
 from here.
@@ -24,19 +32,21 @@ from here.
 | `experiments/analyze_*.py` | analysis scripts: figures, tables, `SUMMARY.md` and `summary.json` per experiment | |
 | `experiments/run_all.py`, `experiments/run_E4.sh` | orchestration of the full-scale runs | |
 | `experiments/*_NOTES.md`, `PLAN.md`, `RUNBOOK.md`, `README.md` | design notes per experiment, protocol, full-scale runbook, runner guide | 1.9 MB in total |
-| `results/` | logged results of every full-scale run: task lists, chunk specifications, raw per-run results (Parquet), down-sampled traces (NPZ), `SUMMARY.md` and `summary.json` per experiment | 1.2 GB |
-| `figures/` | every figure as PDF and PNG | 42 MB |
-| `meta_analysis/` | rubric, coding brief, sampling frame with its raw harvests, sample, per-publication codes with evidence quotes, adjudication files, analysis script (`meta_analysis/README.md`) | 11 MB |
+| `results/` | logged results of every full-scale run (Zenodo archive, not in Git): task lists, chunk specifications, raw per-run results (Parquet), down-sampled traces (NPZ), `SUMMARY.md` and `summary.json` per experiment | 1.2 GB |
+| `figures/` | every figure as PDF and PNG (Zenodo archive, not in Git) | 42 MB |
+| `meta_analysis/` | rubric, coding brief, sampling frame with its raw harvests (four raw harvest and screening files only in the Zenodo archive), sample, per-publication codes with evidence quotes, adjudication files, analysis script (`meta_analysis/README.md`) | 11 MB |
 | `docs/` | `DESIGN.md` (core API), `ZOO.md` (catalogue of every registered component), `spec/` (equations, sources, assumptions and verification of every area) | 0.6 MB |
 | `tools/memguard.py` | memory-guarded, resumable task pool used for every sweep | |
 | `requirements.txt`, `environment.yml`, `pyproject.toml` | environment and package metadata | |
-| `MANIFEST.sha256` | SHA-256 checksum of every file of this folder | |
+| `MANIFEST.sha256` | SHA-256 checksum of every file of the complete artifact (repository and extracted archives) | |
 
 Check the integrity of a copy with
 
 ```bash
 shasum -a 256 -c MANIFEST.sha256 --quiet && echo "all files intact"
 ```
+
+In a Git clone without the archives, add `--ignore-missing` to check the repository files alone.
 
 ## Requirements
 
@@ -101,6 +111,7 @@ of available memory.
 
 ## Step 2: regenerate every figure and summary from the logged results
 
+This step needs `results/` from the Zenodo archives, and `figures/` to compare with.
 Each analysis script reads the logged results of one experiment and writes its figures to `figures/`,
 its tables to `results/tables/` and `SUMMARY.md` and `summary.json` into its results folder, replacing
 the shipped files; copy `results/` and `figures/` first if you want to compare. On the shipped results
@@ -148,11 +159,11 @@ and the review of every experiment are documented in `experiments/<exp>_NOTES.md
 
 ## Step 3: re-run every experiment from scratch
 
-Move the shipped results aside so that nothing is skipped (finished tasks are recognized by their
-result files), then run the sweeps:
+If you extracted the archived results, move them aside so that nothing is skipped (finished tasks
+are recognized by their result files); then run the sweeps:
 
 ```bash
-mv results results_shipped
+mv results results_shipped                                    # only if the archived results are extracted
 python experiments/run_all.py --exps E2 E3 R E8 E7 E1 E5 E6 E9 --workers 20 --name main
 bash experiments/run_E4.sh 8                                  # E4: calibration -> sweep -> analysis
 python experiments/run_all.py --e7-timing --name e7timing     # E7 timing: one worker on a quiet machine
